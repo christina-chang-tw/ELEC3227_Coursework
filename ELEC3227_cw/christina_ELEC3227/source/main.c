@@ -26,14 +26,14 @@
 /**
  * 
  * --------------------------------------------------------------------------------------------------
- * |  TEST_CASE     | Description																	|
+ * |  TEST_CASE     | Description								    |
  * --------------------------------------------------------------------------------------------------
  * |       0        | Send data but no ACK received, the device timeout and retransmit the segment  |
- * |       1        | Send data and an ACK is received, correct checksum							|
- * |       2        | Send data and an ACK is received, incorrect checksum							|
- * |       3        | Send data and an ACK is received, incorrect sequence							|
- * |       4        | Received a segment, not an ACK with correct checksum							|
- * |       5        | Received a segment, not an ACK with incorrect checksum						|
+ * |       1        | Send data and an ACK is received, correct checksum			    |
+ * |       2        | Send data and an ACK is received, incorrect checksum			    |
+ * |       3        | Send data and an ACK is received, incorrect sequence			    |
+ * |       4        | Received a segment, not an ACK with correct checksum			    |
+ * |       5        | Received a segment, not an ACK with incorrect checksum		    	    |
  * --------------------------------------------------------------------------------------------------
  */
 
