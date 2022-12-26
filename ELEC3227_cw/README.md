@@ -33,20 +33,3 @@ The interrupt pins are pulled high; therefore, to trigger the interrupt cycle, t
 
 ### App circuit diagram
 <img src=app_circuit_diagram.png>
-
-<br>
-
-### Segment package description
-
-```C
-typedef struct
-{
-    uint8_t sequence; // your own sequence number
-    uint8_t ack_number; // sender's sequence number
-    uint8_t src_port;
-    uint8_t dest_port;
-    uint8_t len; // length of the app data
-    uint8_t *app_data;
-    uint8_t checksum[2]; // 2 bytes additive checksum
-}transport_segment;
-```
